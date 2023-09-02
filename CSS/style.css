@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+    background-color: black;
+    
+    
+  }
+  .container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 .5rem;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 75vh;
+    border: 5px solid gray;
+    border-radius: 15px;
+    background-color: #fff
+    
+    
+  }
+
+  .section-form {
+    border-radius: 18px;
+    border: 10px 10px;
+    padding-bottom: 10px;
+   
+   
+  }
+
+  .grid-2-col {
+    display: grid ;
+    grid-template-columns: 1fr 2fr;
+    gap: 1px;
+    padding: 10px;
+  }
+
+  .number {
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 50%;
+    height: 1.8rem;
+    width: 1.8rem;
+    text-align: center;
+    margin-left: 20px;
+    padding: 5px;
+    
+    
+    
+    
+    
+    
+  
+  }
+
+
+  .step {
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: gray;
+  }
+
+  .nav-btn {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: .7rem;
+    /* width: 500; */
+  }
+
+ 
+  .form {
+     display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5rem;
+    padding: auto;
+     
+    
+  }
+
+  .nav {
+    background-color: blue;
+    /* padding: 0 2px 0 2px; */
+    /* padding-top: 2; */
+    border-radius: 10px;
+    padding-top: 20px;
+    
+
+  }
+
+  .main {
+    padding-top: 30px;
+    padding-right: 20px;
+    /* background-color: gray; */
+
+  }
+  
+  .cta-form {
+    display: flex;
+    flex-direction: column;
+    /* min-width: 100%; */
+    gap: 20px;
+    padding-top: 20px;
+    position: relative;
+    
+   
+   
+    
+  }
+
+  .heading-text {
+    font-size: 12.5px;
+    line-height: 20px;
+  
+  }
+/* 
+  .btn-next {
+    background-color: #364fc7;
+    color: #fff;
+    position: relative;
+    
+    
+  } */
+
+  .cta-form label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    
+    
+
+  }
+
+  .form-text {
+    color: #4263eb;
+  }
+
+  h1 {
+    color:#364fc7 ;
+  }
+
+  .cta-form input  {
+    width: 80%;
+    padding: 0.2rem;
+   
+  }
+
+  .btn-next {
+    background:#1864ab ;
+    color: #fff;
+    width: 25%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+    /* margin-top: auto; */
+    align-self: self-end;
+    margin-top: 60px;
+
+
+       
+  }
